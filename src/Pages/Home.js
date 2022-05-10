@@ -1,8 +1,6 @@
 import React from "react";
-
 import Banner from "../Assets/Banner.webp";
 import Card from "../Components/CardCategory/Task1";
-// import data from "../data";
 import Task2 from "../Components/CardCategory/Task2";
 import Task3 from "../Components/CardCategory/Task3";
 import Task4 from "../Components/CardCategory/Task4";
@@ -10,7 +8,6 @@ import Task4 from "../Components/CardCategory/Task4";
 const Home = () => {
   return (
     <div className="">
-      {/* <Navbar /> */}
       <div className="w-full h-5/6">
         <img src={Banner} alt="Banner icon" />
       </div>

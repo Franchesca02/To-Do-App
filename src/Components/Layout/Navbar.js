@@ -62,18 +62,6 @@ const Navbar = () => {
             >
               Sign Up
             </Link>
-            <Link
-              to="/Admin"
-              className="block mt-4 lg:inline-block lg:mt-0 text-Green font-bold font-FontInter hover:text-white mr-4 underline"
-            >
-              Admin
-            </Link>
-            <Link
-              to="/To_Do"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#969696] font-bold font-FontInter hover:text-white mr-4 underline"
-            >
-              User
-            </Link>
           </div>
         </div>
       </nav>

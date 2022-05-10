@@ -1,6 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
-// import data from "../data";
 
 const Card = (props) => {
   // const id = props.id;
@@ -15,7 +13,7 @@ const Card = (props) => {
           Title: {props.title}
         </h2>
         <p className="text-base font-FontInter text-center w-[90%] mx-auto text-Grey py-4">
-          <Link to="/To_Do">Description: {props.description}</Link>
+          Description: {props.description}
         </p>
         {/* {data === {}
           ? "LOADING"
