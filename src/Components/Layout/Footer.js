@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,16 +8,16 @@ const Footer = () => {
         <p>2022 To-Do-List App. All Rights Reserved</p>
       </div>
       <div>
-        <a href="#">Terms of Service</a>
+        <Link to="#">Terms of Service</Link>
       </div>
       <div>
-        <a href="#">Services</a>
+        <Link to="#">Services</Link>
       </div>
       <div>
-        <a href="#">About</a>
+        <Link to="#">About</Link>
       </div>
       <div>
-        <a href="#">Blogs</a>
+        <Link to="#">Blog</Link>
       </div>
     </div>
   );

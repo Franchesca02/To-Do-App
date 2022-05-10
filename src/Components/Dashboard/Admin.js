@@ -1,34 +1,7 @@
 import React from "react";
 import Icon from "../../Assets/user.png";
 import Dashboard from "./Dashboard";
-
-// const people = [
-//   {
-//     name: "Jane Cooper",
-//     title: "Regional Paradigm Technician",
-//     department: "Optimization",
-//     role: "Admin",
-//     email: "jane.cooper@example.com",
-//     image: "https://bit.ly/33HnjK0",
-//   },
-//   {
-//     name: "John Doe",
-//     title: "Regional Paradigm Technician",
-//     department: "Optimization",
-//     role: "Tester",
-//     email: "john.doe@example.com",
-//     image: "https://bit.ly/3I9nL2D",
-//   },
-//   {
-//     name: "Veronica Lodge",
-//     title: "Regional Paradigm Technician",
-//     department: "Optimization",
-//     role: " Software Engineer",
-//     email: "veronica.lodge@example.com",
-//     image: "https://bit.ly/3vaOTe1",
-//   },
-// More people...
-// ];
+import { Link } from "react-router-dom";
 
 const Admin = () => {
   return (
@@ -134,12 +107,12 @@ const Admin = () => {
                 <td className="px-6 py-4">By projects</td>
                 <td className="px-6 py-4">In 2 days</td>
                 <td className="px-6 py-4 text-right">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
                   >
                     Edit
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -165,12 +138,12 @@ const Admin = () => {
                 <td className="px-6 py-4">By priority</td>
                 <td className="px-6 py-4">In 5 days</td>
                 <td className="px-6 py-4 text-right">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
                   >
                     Edit
-                  </a>
+                  </Link>
                 </td>
               </tr>
               <tr className="bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-600">
@@ -196,12 +169,12 @@ const Admin = () => {
                 <td className="px-6 py-4">Task type</td>
                 <td className="px-6 py-4">In 8 days</td>
                 <td className="px-6 py-4 text-right">
-                  <a
-                    href="#"
+                  <Link
+                    to="#"
                     className="font-medium text-blue-600 dark:text-blue-500 hover:underline"
                   >
                     Edit
-                  </a>
+                  </Link>
                 </td>
               </tr>
             </tbody>
