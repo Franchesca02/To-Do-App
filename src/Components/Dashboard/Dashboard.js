@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div className="w-[250px] h-[380px] bg-Grey py-4 text-center rounded">
+    <div className="w-[250px] h-[380px] bg-Grey py-4 text-center rounded ml-12">
       <h1 className="font-bold font-FontInter text-2xl py-2">Dashboard</h1>
       <div className="grid px-14">
         <div className="flex mt-8">
