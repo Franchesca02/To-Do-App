@@ -3,7 +3,7 @@ import SignUp from "./Auth/SignUp";
 import Home from "./Pages/Home";
 import Navbar from "./Components/Layout/Navbar";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
-import To_Do from "./Pages/To_Do";
+import ToDo from "./Pages/ToDo";
 import Admin from "./Components/Dashboard/Admin";
 import Footer from "./Components/Layout/Footer";
 function App() {
@@ -12,10 +12,8 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          // eslint-disable-next-line
           <Route path="/" element={<Home />} />
-          // eslint-disable-next-line
-          <Route path="to_do" element={<To_Do />} />
+          <Route path="to_do" element={<ToDo />} />
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<SignUp />} />
           <Route path="admin" element={<Admin />} />
