@@ -17,7 +17,7 @@ const Dashboard = () => {
           </p>
         </div>
         <div className="mt-8">
-          <Link to="/To_Do">
+          <Link to="/User">
             <button className=" flex text-base font-bold font-FontInter text-Red rounded-lg w-[170px] h-[48px] py-2 px-2 bg-Gray">
               <img src={Dash} alt="home icon" />
               <p className="px-2">User dashboard</p>

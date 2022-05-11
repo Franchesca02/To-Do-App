@@ -36,7 +36,7 @@ const To_Do = () => {
           </div>
         </form>
 
-        <select className="text-base text-Green font-FontInter font-bold mx-6 py-2 mt-2 bg-Gray">
+        <select className="text-base text-Green font-FontInter font-bold mx-6 py-2 px-4 mt-4 bg-Grey w-[130px] rounded-lg">
           <option>Projects</option>
           <option>Project 1</option>
           <option>Project 2</option>
@@ -101,13 +101,13 @@ const To_Do = () => {
               <div className="flex mt-2 px-2">
                 <img src={Calendar} alt="Calendar" />
                 <p className="text-[#969696] text-sm font-FontInter px-2">
-                  Mon May, 09
+                  Fri Jul, 12
                 </p>
               </div>
             </div>
           </div>
         </form>
-        <select className="text-base text-Red font-FontInter font-bold mx-6 py-2 mt-4 bg-Gray">
+        <select className="text-base text-Red font-FontInter font-bold mx-6 py-2 px-4 mt-4 bg-Grey w-[130px] rounded-lg">
           <option>Priorities</option>
           <option>High project</option>
           <option>Medium project</option>
@@ -139,7 +139,7 @@ const To_Do = () => {
               <div className="flex mt-2 px-2">
                 <img src={Calendar} alt="Calendar" />
                 <p className="text-[#969696] text-sm font-FontInter px-2">
-                  Mon May, 09
+                  Tue Jan, 12
                 </p>
               </div>
             </div>
@@ -179,7 +179,7 @@ const To_Do = () => {
           </div>
         </form>
 
-        <select className="text-base text-Yellow font-FontInter font-bold mx-6 py-2 mt-4 bg-Gray">
+        <select className="text-base text-Yellow font-FontInter font-bold mx-6 py-2 px-4 mt-4 bg-Grey w-[130px] rounded-lg">
           <option>Task types</option>
           <option>Social media</option>
           <option>Research</option>
@@ -212,7 +212,7 @@ const To_Do = () => {
               <div className="flex mt-2 px-2">
                 <img src={Calendar} alt="Calendar" />
                 <p className="text-[#969696] text-sm font-FontInter px-2">
-                  Mon May, 09
+                  Thur Dec, 20
                 </p>
               </div>
             </div>
@@ -245,7 +245,7 @@ const To_Do = () => {
               <div className="flex mt-2 px-2">
                 <img src={Calendar} alt="Calendar" />
                 <p className="text-[#969696] text-sm font-FontInter px-2">
-                  Mon May, 09
+                  Mon Feb, 18
                 </p>
               </div>
             </div>

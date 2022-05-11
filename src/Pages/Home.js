@@ -11,7 +11,7 @@ const Home = () => {
       <div className="w-full h-5/6">
         <img src={Banner} alt="Banner icon" />
       </div>
-      <div className="absolute top-[400px] ml-6">
+      <div className="absolute top-[430px] ml-6">
         <h1 className="text-4xl font-FontInter font-bold px-4">
           Welcome to My To-Do-List Page
         </h1>
